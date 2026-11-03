@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "keyId": "noctyra-ext-2026-01",
+  "generatedAt": "2026-11-03T12:12:14Z",
+  "extensions": [
+    {
+      "id": "anigiri",
+      "name": "Anigiri",
+      "version": "1.0.4",
+      "apiVersion": 1,
+      "minAppVersion": "0.0.0",
+      "url": "extensions/anigiri-1.0.4.nxext",
+      "sha256": "322c2e427fda66b8cf5f0de877aaaf393643e85d82dffa40940cf704a077fb4c",
+      "size": 11157,
+      "notes": "Evita guardar falhas de rede como lista vazia por 6 horas; os episódios voltam assim que a fonte responde."
+    },
+    {
+      "id": "anroll",
+      "name": "Anroll",
+      "version": "1.0.3",
+      "apiVersion": 1,
+      "minAppVersion": "0.0.0",
+      "url": "extensions/anroll-1.0.3.nxext",
+      "sha256": "848bb717bbd8391daa949dda1517b6b0d6efaa75349f95ca7e6ceaccde5f0cee",
+      "size": 15572,
+      "notes": "Reprodução MP4/HLS no player nativo, sem abrir site. Mantém o mesmo User-Agent na resolução e no Media3, com seleção de qualidade e rejeição da mídia falsa de bloqueio."
+    },
+    {
+      "id": "sushianimes",
+      "name": "SushiAnimes",
+      "version": "1.0.6",
+      "apiVersion": 1,
+      "minAppVersion": "0.0.0",
+      "url": "extensions/sushianimes-1.0.6.nxext",
+      "sha256": "dc5719ba3d4921ec151267961968f6e5dec02b1e6c5ee77e1bc3dab8f967e011",
+      "size": 31118,
+      "notes": "Corrige verificação de idade sem falsos positivos de bloqueio, preserva a sessão adulta e resolve links de episódios especiais diretamente nos cards da fonte."
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "version": "1.0.9",
+      "apiVersion": 1,
+      "minAppVersion": "0.0.0",
+      "url": "extensions/youtube-1.0.9.nxext",
+      "sha256": "4ae339ba90a3b34d3d3b4f72a4050b908e88d8a6cb695741cc009abcac252e54",
+      "size": 23862,
+      "notes": "Primeira publicação pelo catálogo remoto do Noctyra."
+    }
+  ]
+}
